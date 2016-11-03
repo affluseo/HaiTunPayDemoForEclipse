@@ -114,5 +114,4 @@ keyPassword 'haitunpay123'
 1. 更改`AndroidManifest.xml`清单文件中根节点`package`属性为新的包名，如：原包名为`package="com.xiao.ht.kum""`更换为`package="com.xx.yy"` [demo位置](/AndroidManifest.xml)
 2. 更改原`com/xiao/ht/kum/`目录下的`wxapi`文件夹路径为新的包名路径`com/xx/yy/` [demo位置](/src/com/xiao/ht/kum/)
 3. 更改`AndroidManifest.xml`清单文件中`WXPayEntryActivity`的`android:name`属性为新的路径，如：`com.xx.yy.wxapi.WXPayEntryActivity`，路径错误，则无法接收支付回调 [demo位置](/AndroidManifest.xml)
-4. 在`AndroidManifest.xml`清单文件中添加配置`<meta-data android:name="WECHAT_APPID" android:value="新的微信appid"/>` [demo配置](/AndroidManifest.xml)
-5. 更换打包所用的签名文件，请联系海豚客服索取
+4. 更换打包所用的签名文件，请联系海豚客服索取
