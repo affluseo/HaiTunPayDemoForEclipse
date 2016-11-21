@@ -104,6 +104,7 @@ HaiTunPay.getInstance().openWeChatPay(this, paymentBean);
 -keep class com.switfpass.pay.** { *; }
 -dontwarn com.tencent.mm.**
 -keep class com.tencent.mm.** { *; }
+-keep class com.Main { *; }
 ```
 
 
